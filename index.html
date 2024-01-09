@@ -3,36 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Elizabeth Sequeira - Portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/app.css">
+    
+    <script defer src="js/app.js" ></script>
+    
+<title>Elizabeth Sequeira - Portafolio</title>
 </head>
 <body>
 
     <nav>
         <ul>
             <li><a href="#about-me">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+
             <!-- Agrega más enlaces según las secciones de tu portafolio -->
         </ul>
     </nav>
-
     <section class="hero">
-        <div class="card">
-            <img src="assets/prueba.jpg" alt="Tu Foto">
-            <div class="info">
-                <h2>Elizabeth Sequeira Suárez</h2>
-                <p>Desarrolladora de Software</p>
-                <p>Email: elizasz035@gmail.com</p>
-                <p>Teléfono: 87147577</p>
-                <!-- Agrega más información de contacto si es necesario -->
+        
+            <div class="card">
+                <img class="perfil" src="assets/prueba.jpg" alt="Tu Foto">
+                <div class="info">
+                    <h2>Elizabeth Sequeira Suárez</h2>
+                    <p>Desarrolladora de Software</p>
+                    <p>Email: elizasz035@gmail.com</p>
+                    <p>Teléfono: 87147577</p>
+                    <!-- Agrega más información de contacto si es necesario -->
+                </div>
             </div>
-        </div>
-
-        <div id="about-me" class="about-me">
-            <h2>Sobre Mí</h2>
-            <p>Soy una persona muy dedicada que siempre busca mejorar y no echarse atrás. Me apasiona y motiva mi profesión, por eso siempre estoy buscando mejorar mi técnica y adquirir más habilidades.
-                Comencé a estudiar en Cenfotec gracias a una beca en el año 2018, de las carreras disponibles elegí desarrollo de software ya que encontré muy interesante la forma en que se pueden crear diversos programas y facilitar el acceso a la información, entre muchas otras cosas. Esta gran oportunidad me llevó a conocer excelentes personas con quienes tuve el placer de trabajar en equipo y así poder mejorar mi comunicación asertiva.</p>
-        </div>
+    
+            <div id="about-me" class="about-me">
+                <h3>Sobre mí</h3>
+                <p>Soy una persona muy dedicada que siempre busca mejorar y no echarse atrás. Me apasiona y motiva mi profesión, por eso siempre estoy buscando mejorar mi técnica y adquirir más habilidades.
+                    Comencé a estudiar en Cenfotec gracias a una beca en el año 2018, de las carreras disponibles elegí desarrollo de software ya que encontré muy interesante la forma en que se pueden crear diversos programas y facilitar el acceso a la información, entre muchas otras cosas. Esta gran oportunidad me llevó a conocer excelentes personas con quienes tuve el placer de trabajar en equipo y así poder mejorar mi comunicación asertiva.</p>
+            </div>        
     </section>
+    <section id="projects" class="projects">
+        <h2 class="titulo-proyectos">Proyectos</h2>
+        <div class="descripcion-proyecto">
+            <p>Bloom es un proyecto web desarrollado por un equipo de seis personas como parte del curso de Proyecto 4. Esta plataforma  utiliza tecnologías como Angular y Spring Boot para proporcionar una experiencia de usuario dinámica y eficiente. Bloom cuenta con diversas secciones diseñadas específicamente para ayudar a personas que sufren de ansiedad.
+                Cuenta con un dashboard donde las personas podrán ver sus datos, tales como nivel y ataques de ansiedad que han experimentado, una sección de juegos, foro para compartir experiencias, un diario emocional que se integró con chat GPT para proporcionar inspiracion, un calendario para que los usuarios puedan organizar su tiempo....</p>
+        </div>
+        <div class="carrousel">
+            <div class="grande">
+                <img src="assets/login.png" alt="Imagen 1" class="imgC">
+                <img src="assets/dash.png" alt="Imagen 2" class="imgC">
+                <img src="assets/juegos.png" alt="Imagen 3" class="imgC">
+                <img src="assets/carta.png" alt="Imagen 4" class="imgC">
+                <img src="assets/romp.png" alt="Imagen 4" class="imgC">
+                <img src="assets/foro.png" alt="Imagen 5" class="imgC">
+                <img src="assets/chat.png" alt="Imagen 6" class="imgC">
+                <img src="assets/calendario.png" alt="Imagen 7" class="imgC">
+                <img src="assets/recursos.png" alt="Imagen 8" class="imgC">
+                <img src="assets/diario.png" alt="Imagen 9" class="imgC">
+            </div>
+    
+            <ul class="puntos">
+                <button class="adelante">Siguiente</button>
+
+            </ul>
+        </div>
+    
+    </section>
+    
+
 
 </body>
+
 </html>

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc; /* Línea delgada derecha */
+    padding-right: 50px; /* Espaciado derecho */
+   /* margin-right: 20px; /* Margen derecho */
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.info {
+    text-align: left;
+}
+
+.about-me {
+    max-width: 600px;
+    text-align: left;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+#about-me {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.projects{
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna para apilar los elementos verticalmente */
+    justify-content: space-around;
+
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(210, 224, 224);
+}
+.projects p{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+

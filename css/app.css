@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* Aquí definimos las Custom properties */
+:root {
+  --negro: #393939;
+  --blanco: #ececec;
+  --sombra-ppal: #c9c9c9;
+  --sombra-sec: #ffffff;
+  --borde-negro: #00000050;
+  --marcado: rgb(127, 195, 255);
+  /* Tipografía */
+  --tipo-principal: Helvetica, Arial, sans-serif;
+}
+
+/* Las adaptamos al modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --negro: #ececec;
+    --blanco: #303030;
+    --sombra-ppal: #242424;
+    --sombra-sec: #3c3c3c;
+    --borde-negro: #FFFFFF50;
+  }
+}
+
+
+
+.carrousel {
+
+  margin: 50px;
+  color: var(--negro);
+  transition: all 0.4s ease;
+  border-radius: 1em;
+  background-color: var(--blanco);
+  overflow: hidden;
+  max-height: 450px; /* Ajusta la altura máxima del carrusel */
+}
+
+.carrousel .grande {
+  display: flex; 
+}
+
+.carrousel .imgC {
+  width: 50%; /* Ajusta el ancho de cada imagen a 100% */
+  height: 50%; /* Ajusta la altura de cada imagen a 100% */
+  object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor sin distorsión */
+  /* Resto de los estilos existentes */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+  margin: 0 auto; /* Centra las imágenes en el carrusel */  
+  /* Agrega una transición para el cambio suave de imágenes */
+  transition: all 0.5s ease;
+  transform: translateX(0%);
+}
+.titulo-proyectos {
+  text-align: center;
+}
+
+.descripcion-proyecto {
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+.carrousel .puntos {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrousel .punto {
+  width: 2em;
+  height: 2em;
+  margin: 1em 1em 0;
+ 
+}
+button {
+  width: 100%;
+  border: none; /* Elimina el borde del botón */
+  background-color: initial; /* Establece el color de fondo inicial del botón */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse sobre el botón */
+  transition: background-color 0.3s ease; /* Agrega una transición suave para el cambio de color */
+  padding: 10px;
+}
+
+button:hover {
+  background-color:  rgb(46, 79, 92);/* Tu nuevo color al pasar el mouse */;
+  color: #ffffff;
+}
+
