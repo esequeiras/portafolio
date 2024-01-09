@@ -64,7 +64,7 @@ h1, h2, p {
 h1 {
     font-size: 2em;
 }
-
+ 
 h2 {
     color: #333;
     font-size: 1.5em;
@@ -82,7 +82,7 @@ h2 {
 
     align-items: center;
     padding: 50px;
-    background-color: rgb(210, 224, 224);
+    background-color: rgb(248, 248, 248);
 }
 .projects p{
     padding-left: 120px;
