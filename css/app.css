@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color:  rgb(46, 79, 92);/* Tu nuevo color al pasar el mouse */;
+  background-color:  rgb(68, 1, 1);/* Tu nuevo color al pasar el mouse */;
   color: #ffffff;
 }
 
