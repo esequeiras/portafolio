@@ -12,23 +12,26 @@
    
     <nav>
         <ul>
-            <li><a href="#about-me">Sobre Mí</a></li>
+            <li><a href="#home">Contacto</a></li>
             <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Conocimientos</a></li>
+            <li><a href="#experiencia">Experiencia académica</a></li>
+
+
         </ul>
     </nav>
    
-    <section class="home">
+    <section id="home" class="home">
         
         <div id="about" class="about">
             <h1>Elizabeth Sequeira Suárez</h1>
-            <h2 style="color: rgb(170, 0, 0);">Desarrolladora de Software</h2>
+            <h2 style="color: rgb(53, 53, 53);">Desarrolladora de Software</h2>
             <p>Email: elizasz035@gmail.com</p>
             <p>Teléfono: 87147577</p>
-            <button class="about-me-button" onclick="redirigir()" >Sobre mí</button>
         </div> 
         
         <div class="perfil">
-            <img src="assets/prueba.jpg" alt="Tu Foto">
+            <img src="assets/prueba.webp" alt="Tu Foto">
         </div>
                  
     </section>
@@ -47,13 +50,14 @@
 
     <section id="projects" class="projects">
         <h1 class="titulo-proyectos">Proyectos</h2>
+      
         <div class="descripcion-proyecto">
             <!--<p>Bloom es un proyecto web desarrollado por un equipo de seis personas como parte del curso de Proyecto 4. Esta plataforma  utiliza tecnologías como Angular y Spring Boot para proporcionar una experiencia de usuario dinámica y eficiente. Bloom cuenta con diversas secciones diseñadas específicamente para ayudar a personas que sufren de ansiedad.
                 Cuenta con un dashboard donde las personas podrán ver sus datos, tales como nivel y ataques de ansiedad que han experimentado, una sección de juegos, foro para compartir experiencias, un diario emocional que se integró con chat GPT para proporcionar inspiracion, un calendario para que los usuarios puedan organizar su tiempo....</p>-->
         </div>
         <div class="container">
             <div class="card">
-                <img src="assets/bloom.png" alt="">
+                <img src="assets/bloom.webp" alt="">
                 <h3>Bloom</h3>
                 <p>Angular, Springboot, Aws, Mysql</p>
                 <input type="checkbox" id="btn-modal">
@@ -64,7 +68,7 @@
                 <div class="modal-container">
                     <header>Bloom!!!</header>
                     <label for="btn-modal" class="lbl-modal">X</label>
-                    <img id="imagenModal" src="assets/login.png" alt="Imagen 1">
+                    <img id="imagenModal" src="assets/login.webp" alt="Imagen 1">
                     <button id="adelante">Siguiente</button>
 
                     <div class="capa">
@@ -76,11 +80,117 @@
         </div>
       
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
 
         <h1>Skills</h1>
-
+        <div class="skills-container">
+            <div>
+                <img src="assets/CSS3_logo.svg.png" alt="">
+            </div>
+            <div>
+                <img src="assets/html5-icon-1.png" alt="">
+            </div>
+            <div>
+                <img src="assets/javascript-logo-javascript-icon-transparent-free-png.webp" alt="">
+    
+            </div>
+            <div>
+                <img src="assets/java.png" alt="">
+    
+            </div>
+            <div>
+                <img src="assets/c.png" alt="">
+            </div>
+            <div>
+                <img src="assets/angular.png" alt="">
+    
+            </div>
+            <div>
+                <img src="assets/vs.png" alt="">
+    
+            </div>
+            <div>
+                <img src="assets/sql.png" alt="">
+    
+            </div>
+            <div>
+                <img src="assets/intellij.png" alt="">
+    
+            </div>
+        </div>
+        
     </section>
+
+    <section id="experiencia" class="experiencia">
+        <h2>Experiencia Académica</h2>
+    
+        <div class="course">
+          <h3>Proyecto 1</h3>
+          <p><strong>Universidad Cenfotec, 2018</strong></p>
+          <p><strong>Descripción del Curso:</strong> Durante el curso, se utilizó JavaScript, HTML y NoSQL con un enfoque práctico. </p>
+          <p><strong>Responsabilidades y Logros:</strong></p>
+          <ul>
+            <li>Se llevó a cabo el desarrollo de una aplicación web dedicada a mostrar lugares y actividades a nivel nacional, permitiendo a los usuarios realizar diversas acciones, como reservar cupos en dichas actividades, entre otras funcionalidades.</li>
+            <li>Colaboración en proyectos grupales para mejorar habilidades de trabajo en equipo.</li>
+            <li>Creación de documentos como ERS,Analisis y diseño</li>
+          </ul>
+        </div>
+    <br>
+        <div class="course">
+          <h3>Proyecto 2</h3>
+          <p><strong>Universidad Cenfotec, 2019</strong></p>
+          <p><strong>Descripción del Curso:</strong> Se profundizó en el uso de tecnologías más avanzadas, como .NET C#, SQL, el modelo MVC y la plataforma Azure.</p>
+          <p><strong>Responsabilidades y Logros:</strong></p>
+          <ul>
+            <li>Se desarrolló una aplicación web para servicios
+                hoteleros, facilitando a los usuarios la reserva de
+                habitaciones y la adquisición de productos y servicios entre otras funcionalidades.</li>
+            <li>Generación de especificación
+                de requerimientos, validación,
+                verificación de requerimientos y
+                análisis y diseño del proyecto a
+                realizar.</li>
+          </ul>
+        </div>
+        <br>
+        <div class="course">
+            <h3>Proyecto 3</h3>
+            <p><strong>Universidad Cenfotec, 2023</strong></p>
+            <p><strong>Descripción del Curso:</strong>Se utilizaron tecnologías como Spring Boot, Angular, Deploy en Aws.</p>
+            <p><strong>Responsabilidades y Logros:</strong></p>
+            <ul>
+              <li>Se desarrolló una aplicación web que permite a los
+                usuarios acceder a recursos y herramientas para
+                gestionar la ansiedad, proporcionando un entorno digital
+                que facilita el bienestar emocional.
+                .</li>
+              <li>El proyecto se completó exitosamente dentro del plazo estimado</li>
+            </ul>
+          </div>
+          <br>
+          <div class="course">
+            <h3>Exta</h3>
+            <p><strong>Universidad Cenfotec, 2023</strong></p>
+            <p><strong>Descripción: </strong>Experiencia como asistente académica en cursos como:
+                Principios de Programación (Java y Python), Programación
+                Orientada a Objetos y Fundamentos de Bases de Datos.
+                Asistente del centro de apoyo para la inclusión en
+                Universidad Cenfotec</p>
+            <p><strong>Responsabilidades y Logros:</strong></p>
+            <ul>
+              <li>Responder preguntas sobre:
+                El material visto en clase, ejercicios, instrucciones
+                de tareas y realizar Centros de repaso.
+                </li>
+
+              <li>Proporciono apoyo
+                personalizado a estudiantes,
+                adaptando estrategias y
+                recursos para satisfacer sus
+                necesidades específicas</li>
+            </ul>
+          </div>
+      </section>
     
 
 

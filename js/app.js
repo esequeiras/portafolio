@@ -50,15 +50,15 @@ document.addEventListener("DOMContentLoaded", function() {
     let indiceImagen = 0;
     
     const imagenes = [
-        { src: "assets/login.png", texto: "Bloom cuenta con diversas secciones diseñadas específicamente para ayudar a personas que sufren de ansiedad." },
-        { src: "assets/dash.png", texto: "Dashboard donde el usuario puede ver graficos sobre sus niveles y ataques de ansiedad desde que inició a usar la app." },
-        { src: "assets/juegos.png", texto: "Sección de juegos" },
-        { src: "assets/carta.png", texto: "Juego de cartas, se puede cambiar la dificultad que va desde facil (10 cartas) a dificil (28 cartas)" },
-        { src: "assets/romp.png", texto: "Juego puzzle, se puede cambiar la dificultad, imagen"},
-        { src: "assets/foro.png", texto: "Foro donde se pueden compartir experiancias mediante comentarios y publicaciones "},
-        { src: "assets/chat.png", texto: "Chat implementado con web sokets"},
-        { src: "assets/calen.png", texto: "Calendario, se utilizó un job para notificar al usuario cuando esté próximo a un evento"},
-        { src: "assets/gpt.png", texto: "Diario emocional, se implementó chat GPT para dar inspiración al usuario sobre qué escribir"},
+        { src: "assets/login.webp", texto: "Bloom cuenta con diversas secciones diseñadas específicamente para ayudar a personas que sufren de ansiedad." },
+        { src: "assets/dash.webp", texto: "Dashboard donde el usuario puede ver graficos sobre sus niveles y ataques de ansiedad desde que inició a usar la app." },
+        { src: "assets/juegos.webp", texto: "Sección de juegos" },
+        { src: "assets/carta.webp", texto: "Juego de cartas, se puede cambiar la dificultad que va desde facil (10 cartas) a dificil (28 cartas)" },
+        { src: "assets/romp.webp", texto: "Juego puzzle, se puede cambiar la dificultad, imagen"},
+        { src: "assets/foro.webp", texto: "Foro donde se pueden compartir experiancias mediante comentarios y publicaciones "},
+        { src: "assets/chat.webp", texto: "Chat implementado con web sokets"},
+        { src: "assets/calen.webp", texto: "Calendario, se utilizó un job para notificar al usuario cuando esté próximo a un evento"},
+        { src: "assets/gpt.webp", texto: "Diario emocional, se implementó chat GPT para dar inspiración al usuario sobre qué escribir"},
 
 
         // Agrega más objetos con rutas de imágenes y textos según sea necesario
